@@ -43,11 +43,11 @@ require(['jquery', '../lib/template', 'swiper'], function($, template, swiper) {
                     $('.wrap').css('display', 'none');
                 })
 
-                $('.shangpin').on('click', function() {
+                $('.shangpin1').on('click', function() {
                     $('.bodyer_1').css('display', 'block');
                     $('.bodyer_2').css('display', 'none');
                 })
-                $('.xiangqing').on('click', function() {
+                $('.xiangqing1').on('click', function() {
                     $('.bodyer_1').css('display', 'none');
                     $('.bodyer_2').css('display', 'block');
                 })
