@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/less/main.css">
+</head>
+<script>
+    document.documentElement.style.fontSize = window.innerWidth / 10 + 'px';
+</script>
+
+<script type='text/x-handlebars-template' id='nav'>
+    {{#each data}}
+    <li class='li'>{{this.list}}</li>
+    {{/each}}
+</script>
+
+<script type='text/x-handlebars-template' id='juti'>
+    {{#each data}} {{#each this.juti}}
+    <dl>
+        <dt><img src="../static/images/{{this.img}}" alt=""></dt>
+        <dd>
+            <p>{{this.jieshao}}</p>
+            <p>{{this.name}}</p>
+            <p>{{this.porject}}</p>
+        </dd>
+    </dl>
+    {{/each}} {{/each}}
+</script>
+<script type='text/x-handlebars-template' id='juti1'>
+    {{#each data}} {{#each this.juti}}
+    <dl>
+        <dt><img src="../static/images/{{this.img}}" alt=""></dt>
+        <dd>
+            <p>{{this.jieshao}}</p>
+            <p>{{this.name}}</p>
+            <p>{{this.porject}}</p>
+        </dd>
+    </dl>
+    {{/each}} {{/each}}
+</script>
+<script type='text/x-handlebars-template' id='juti2'>
+    {{#each data}} {{#each this.juti}}
+    <dl>
+        <dt><img src="../static/images/{{this.img}}" alt=""></dt>
+        <dd>
+            <p>{{this.jieshao}}</p>
+            <p>{{this.name}}</p>
+            <p>{{this.porject}}</p>
+        </dd>
+    </dl>
+    {{/each}} {{/each}}
+</script>
+<script type='text/x-handlebars-template' id='juti3'>
+    {{#each data}} {{#each this.juti}}
+    <dl>
+        <dt><img src="../static/images/{{this.img}}" alt=""></dt>
+        <dd>
+            <p>{{this.jieshao}}</p>
+            <p>{{this.name}}</p>
+            <p>{{this.porject}}</p>
+        </dd>
+    </dl>
+    {{/each}} {{/each}}
+</script>
+<script type='text/x-handlebars-template' id='juti4'>
+    {{#each data}} {{#each this.juti}}
+    <dl>
+        <dt><img src="../static/images/{{this.img}}" alt=""></dt>
+        <dd>
+            <p>{{this.jieshao}}</p>
+            <p>{{this.name}}</p>
+            <p>{{this.porject}}</p>
+        </dd>
+    </dl>
+    {{/each}} {{/each}}
+</script>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="tou">
+                <span><</span><span>居家</span><img src="../static/images/3.png" alt="">
+            </div>
+            <div class="nav">
+                <ul class='ul'>
+
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="bodyer5 bodyer">
+
+            </div>
+            <div class="bodyer1 bodyer">
+
+            </div>
+            <div class="bodyer2 bodyer">
+
+            </div>
+            <div class="bodyer3 bodyer">
+
+            </div>
+            <div class="bodyer4 bodyer">
+
+            </div>
+        </div>
+    </div>
+    <div class="wrap1">
+        <div class="header_1">
+            <span class='tuihui'><</span>
+            <p><span class='shangpin'>商品</span><span class='xiangqing'>详细</span></p>
+            <img src="../static/images/6.png" alt="">
+        </div>
+        <div class="bodyer_1">
+            <img src="../static/images/7.png" alt="">
+            <p>欧式天丝四件套</p>
+            <p>柔滑兰精天丝，清凉亲肤保湿</p>
+            <p>￥599</p>
+            <ul>
+                <li>
+                    积分：购买最高得59积分
+                </li>
+                <li>
+                    服务：30天无忧退款速度退款
+                </li>
+            </ul>
+        </div>
+        <div class="bodyer_2">
+            <ul>
+                <li>适用季节：四季通用</li>
+                <li>款式：床单</li>
+                <li>面料：全棉</li>
+                <li>出产地：北欧</li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src='../static/js/lib/require.js'></script>
+<script>
+    require(['../static/js/config'], function() {
+        require(['main'])
+    })
+</script>
+
+
+</html>

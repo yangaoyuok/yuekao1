@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+}
+.wrap .header {
+  height: 1.44rem;
+}
+.wrap .header .tou {
+  height: 0.77333333rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.34666667rem;
+  align-items: center;
+  padding: 0 0.26666667rem;
+}
+.wrap .header .tou img {
+  width: 0.37333333rem;
+  height: 0.37333333rem;
+}
+.wrap .header .nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.26666667rem;
+}
+.wrap .header .nav ul li {
+  font-size: 0.26666667rem;
+}
+.wrap .header .nav ul li:nth-child(1) {
+  border-bottom: 0.05333333rem solid red;
+}
+.wrap .bodyer {
+  display: none;
+}
+.wrap .bodyer dl {
+  display: inline-block;
+  width: 4.74666667rem;
+  height: 6.56rem;
+  font-size: 0.32rem;
+}
+.wrap .bodyer dl dt {
+  width: 4.74666667rem;
+  height: 4.05333333rem;
+}
+.wrap .bodyer dl dt img {
+  width: 4.74666667rem;
+  height: 4.05333333rem;
+}
+.wrap .bodyer dl dd p {
+  padding-top: 0.13333333rem;
+  color: #353535;
+}
+.wrap .bodyer dl dd p:nth-child(1) {
+  height: 0.93333333rem;
+  background: #F1ECE2;
+  font-size: 0.24rem;
+  color: #AE9C78;
+}
+.wrap .bodyer dl dd p:nth-child(3) {
+  color: #B73034;
+}
+.wrap .bodyer5 {
+  display: block;
+}
+.wrap1 {
+  display: none;
+  overflow: hidden;
+}
+.wrap1 .header_1 {
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.32rem;
+  padding: 0 0.26666667rem;
+}
+.wrap1 .header_1 p span {
+  width: 1.28rem;
+  height: 0.64rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.wrap1 .bodyer_1 {
+  display: block;
+}
+.wrap1 .bodyer_1 img {
+  width: 10.05333333rem;
+  height: 10.16rem;
+}
+.wrap1 .bodyer_1 p {
+  font-size: 0.32rem;
+  padding-left: 0.26666667rem;
+  padding-top: 0.13333333rem;
+}
+.wrap1 .bodyer_1 p:nth-child(3) {
+  color: #878787;
+}
+.wrap1 .bodyer_1 ul li {
+  font-size: 0.32rem;
+  padding: 0.26666667rem;
+  border-bottom: 1px solid #ccc;
+}
+.wrap1 .bodyer_2 {
+  display: none;
+}
+.wrap1 .bodyer_2 ul li {
+  height: 1.33333333rem;
+  font-size: 0.32rem;
+  border-bottom: 1px solid #ccc;
+  line-height: 1.33333333rem;
+  padding: 0 0.26666667rem;
+}
